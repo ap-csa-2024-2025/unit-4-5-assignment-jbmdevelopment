@@ -19,18 +19,19 @@ public class Main
     }
     // #2
     System.out.println("");
-    for(int start = 10; start > 0; start--) {
+    printNums();
+    // code solution here
+  }
+
+  public static void printNums()
+  {
+        for(int start = 10; start > 0; start--) {
       
       for(int times = 0; times < start; times++) {
           System.out.print(" " + start); // add a space (use start instead of times).
       }
       System.out.println("");
     }
-    // code solution here
-  }
-
-  public static void printNums()
-  {
     // code solution here
   }
 
