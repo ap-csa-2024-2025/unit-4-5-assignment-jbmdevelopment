@@ -22,6 +22,7 @@ public class Main
     printNums();
     System.out.println("");
     uprightNumberTriangle(5);
+    uprightNumberTriangle(6);
     // code solution here
   }
 
@@ -39,9 +40,9 @@ public class Main
 
   public static void uprightNumberTriangle(int N)
   {
-    for(int start = N; start > 0; start--) {
-        for(int t = 1; t < start; t++) {
-            System.out.print(" " + t);
+    for(int start = 1; start <= N; start++) {
+        for(int t = 0; t < start; t++) {
+            System.out.print(" " + (t + 1));
         }
         System.out.println("");
     }
